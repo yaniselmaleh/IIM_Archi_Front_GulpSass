@@ -23,8 +23,8 @@ function sass(){
 
 // Watch Sass
 function watcher(done){
-    watch('./sass/*.scss', sass)
-    browserSync.reload();
+    //watch('./sass/*.scss', sass)
+    watch('./sass/', sass)
     done();
 }
 
